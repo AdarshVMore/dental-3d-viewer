@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Viewer from "./components/Viewer";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="w-full flex justify-between items-center p-4 bg-gray-400 shadow-md">
+        {/* Toolbar Buttons */}
+        <div className="flex space-x-2">
+          <button className="btn">Upper</button>
+          <button className="btn">Top</button>
+          <button className="btn">Right</button>
+          <button className="btn">Front</button>
+          <button className="btn">Left</button>
+          <button className="btn">Bottom Lower</button>
+        </div>
+
+        {/* Action Buttons */}
+        <div className="flex space-x-2">
+          <button className="btn">Attach</button>
+          <button className="btn">IPR</button>
+          <button className="btn">Elastics</button>
+          <button className="btn">Split</button>
+          <button className="btn">Tools</button>
+        </div>
+      </div>
+
+      {/* 3D Viewer */}
+      <div className="w-screen flex-1 flex items-center justify-center bg-gray-800 p-4">
+        <Viewer />
+      </div>
+
+      {/* Timeline and Playback Controls */}
+      <div className="w-full p-4 bg-gray-400 shadow-md flex justify-between items-center">
+        <div className="flex space-x-2 items-center">
+          {/* Playback Controls */}
+          <button className="btn">&#9664;</button>
+          <button className="btn">&#9654;</button>
+          <span>19 / 42</span>
+        </div>
+        {/* Timeline Slider */}
+        <input type="range" min="0" max="42" value="19" className="slider" />
+      </div>
     </div>
   );
 }
