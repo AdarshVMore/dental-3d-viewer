@@ -41,7 +41,7 @@ function App() {
     setActions({
       enablePan: true,
       enableRotate: false,
-      enableZoom: false,
+      enableZoom: true,
     });
   };
 
@@ -49,7 +49,7 @@ function App() {
     setActions({
       enablePan: false,
       enableRotate: true,
-      enableZoom: false,
+      enableZoom: true,
     });
   };
 
@@ -63,7 +63,7 @@ function App() {
 
   const handleZoomOut = () => {
     setActions({
-      enablePan: false,
+      enablePan: true,
       enableRotate: false,
       enableZoom: true,
     });
@@ -112,30 +112,6 @@ function App() {
       <div className="w-full flex justify-between items-center p-2 bg-white shadow-lg border-b border-gray-300">
         {/* View Buttons */}
         <div className="flex space-x-2 items-center">
-          <div className="flex space-x-2 items-center">
-            <button onClick={handlePan} className="button-class">
-              <img src={pan} className="w-6" alt="Pan" />
-            </button>
-            <button onClick={handleRotate} className="button-class">
-              <img src={rotate} className="w-6" alt="Rotate" />
-            </button>
-            <button onClick={handleZoom} className="button-class">
-              <img src={zoom} className="w-6" alt="Zoom In" />
-            </button>
-            <button onClick={handleZoomOut} className="button-class">
-              <img src={zoomout} className="w-6" alt="Zoom Out" />
-            </button>
-            <button className="button-class">
-              <img src={brightness} className="w-6" alt="Brightness" />
-              <input
-                type="range"
-                min="0"
-                max="255"
-                onChange={handleBrightnessChange}
-                className="brightness-slider"
-              />
-            </button>
-          </div>
           <div className="flex space-x-1 items-center">
             <button
               className={`flex flex-col items-center justify-center px-3 py-1 text-sm hover:bg-gray-200 ${
@@ -243,8 +219,13 @@ function App() {
       </div>
 
       {/* 3D Viewer */}
-      <div className="w-full flex-1 flex items-center justify-center bg-gray-800 p-4">
-        <Viewer view={view} mode={mode} actions={actions} />
+      <div className="w-full flex-1 flex items-center justify-center bg-gray-100">
+        <Viewer
+          view={view}
+          mode={mode}
+          actions={actions}
+          background={background}
+        />
       </div>
 
       {/* Timeline and Playback Controls */}

@@ -1,0 +1,92 @@
+# Blender MTL File: 'Model Kawasaki V4.blend'
+# Material Count: 7
+
+newmtl Basic_Plane_Shape_1001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.538657 0.005417 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_Normal.1001.png
+map_Kd D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_BaseColor.1001.png
+map_Ns D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_Roughness.1001.png
+refl D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_Metallic.1001.png
+
+newmtl Basic_Plane_Shape_1002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_Normal.1002.png
+map_Kd D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_BaseColor.1002.png
+map_Ns D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_Roughness.1002.png
+refl D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Base Shape Plane_Metallic.1002.png
+
+newmtl HOOD
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.880105 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Hood Shape_Normal.1001.png
+map_Kd D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Hood Shape_BaseColor.1001.png
+map_Ns D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Hood Shape_Roughness.1001.png
+refl D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_Hood Shape_Metallic.1001.png
+
+newmtl Metal_GOLD
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.001459 0.000000 0.481229
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Propellor_Fittings_ETC
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Propellor V2_Propellor_Fittings_ETC_Normal.1001.png
+map_Kd D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Propellor V2_Propellor_Fittings_ETC_BaseColor.1001.png
+map_Ns D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Propellor V2_Propellor_Fittings_ETC_Roughness.1001.png
+refl D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Propellor V2_Propellor_Fittings_ETC_Metallic.1001.png
+
+newmtl RETOPO_FITTINGS
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_RETOPO_FITTINGS_Normal.1001.png
+map_Kd D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_RETOPO_FITTINGS_BaseColor.1001.png
+map_Ns D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_RETOPO_FITTINGS_Roughness.1001.png
+refl D:\\Desktop\\KAWASAKI MODEL\\TEXTURES\\Model Kawasaki Low Poly_RETOPO_FITTINGS_Metallic.1001.png
+
+newmtl Unnamed_Material
+Ns 714.347131
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
