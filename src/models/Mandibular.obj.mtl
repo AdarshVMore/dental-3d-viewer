@@ -1,0 +1,193 @@
+# MTL Created with OrthoAnalyzer.exe
+# 29/08/2024 9:36:48 PM
+# https://www.3shape.com/
+
+newmtl Mandibular
+Ka 0.2 0.2 0.2
+Kd 0.87 0.27 0.20
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_18
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_19
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth19
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_20
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth20
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_21
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth21
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_22
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth22
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_23
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth23
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_24
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth24
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_25
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth25
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_26
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth26
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_27
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth27
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_28
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth28
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_29
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth29
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_30
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Attachment0Tooth30
+Ka 0.2 0.2 0.2
+Kd 0.00 0.00 1.00
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+
+newmtl Tooth_31
+Ka 0.2 0.2 0.2
+Kd 0.78 0.78 0.78
+Ks 0.0 0.0 0.0
+Ns 0.0
+illum 1
+

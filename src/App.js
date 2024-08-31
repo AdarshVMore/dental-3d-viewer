@@ -37,39 +37,6 @@ function App() {
   });
   const [background, setBackground] = useState("#808080"); // Define the background state here
 
-  const handlePan = () => {
-    setActions({
-      enablePan: true,
-      enableRotate: false,
-      enableZoom: true,
-    });
-  };
-
-  const handleRotate = () => {
-    setActions({
-      enablePan: false,
-      enableRotate: true,
-      enableZoom: true,
-    });
-  };
-
-  const handleZoom = () => {
-    setActions({
-      enablePan: false,
-      enableRotate: false,
-      enableZoom: true,
-    });
-  };
-
-  const handleZoomOut = () => {
-    setActions({
-      enablePan: true,
-      enableRotate: false,
-      enableZoom: true,
-    });
-    // Additional logic to zoom out
-  };
-
   const handleBrightnessChange = (e) => {
     const newColor = `rgba(${e.target.value}, ${e.target.value}, ${e.target.value}, 1)`;
     setBackground(newColor);
